@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 .navbar-container {
     width: 100%;
     height: 70px;
@@ -14,15 +12,12 @@
     position: sticky;
     top: 0;
     padding: 0.2em;
-
 }
-
 #logo {
     width: 50px;
     height: 50px;
     margin: 10px;
 }
-
 .nav-itens {
     list-style: none;
     position: absolute;
@@ -32,23 +27,19 @@
     margin: 0;
     right: 0;
 }
-
 .nav-itens li {
     display: inline-block;
     text-transform: uppercase;
     margin-left: 25px;
 }
-
 .nav-itens li a {
     text-decoration: none;
     color: aliceblue;
     transition: .5s;
 }
-
 .nav-itens li a:hover {
     color: #0b4ffa;
 }
-
 .btn-login {
     padding: 10px 20px;
     background: #107A0E;
@@ -56,7 +47,6 @@
     height: 43px;
     width: 81px;
 }
-
 .main-banner {
     background-image: url(/assets/img/Vector-design-city-skyscrapers-night_3840x2160.jpg);
     background-position: center;
@@ -65,7 +55,6 @@
     position: relative;
     height: 810px;
 }
-
 .main-banner h1 {
     font-size: 64px;
     color: #FFF;
@@ -73,63 +62,52 @@
     text-align: center;
     padding-top: 10%;
 }
-
 .main-banner h2 {
     text-align: center;
     font-size: 48px;
     color: #FFF;
 }
-
 .descricao-container {
     padding: 5em 0;
 }
-
 .descricao-container ul {
     display: flex;
     width: 90%;
     position: relative;
     margin: auto;
 }
-
 .descricao-container ul li {
     flex: 1 1 200px;
     list-style: none;
     text-align: center;
     padding: 20px;
 }
-
 .fa-shield-halved {
     font-size: 60px;
     margin-bottom: 15px;
     color: #107A0E;
 }
-
 .fa-rocket {
     font-size: 60px;
     margin-bottom: 15px;
     color: #F20000;
 }
-
 .fa-comments {
     font-size: 60px;
     margin-bottom: 15px;
     color: #0B4CF2;
 }
-
 .planos-precos {
     padding-bottom: 5em;
     text-align: center;
 }
-
 .planos-precos h2 {
     font-size: 36px;
     margin-top: 0;
 }
-
 .planos-precos h3 {
     font-size: 24px;
 }
-
 .plans-container {
     display: flex;
     justify-content: space-between;
@@ -138,18 +116,15 @@
     position: auto;
     margin-right: auto;
 }
-
 .plan {
     flex: 1 1 200px;
     max-width: 275px;
     margin-left: 20px;
     margin-right: 20px;
 }
-
 .plan ul {
     padding: 0;
 }
-
 .plan ul li {
     list-style: none;
     height: 50px;
@@ -157,7 +132,6 @@
     background-color: #575757;
     color: #fff;
 }
-
 .plan .preco {
     width: 120px;
     height: 120px;
@@ -172,7 +146,6 @@
     margin-right: auto;
     margin-bottom: -50px;
 }
-
 .plan .plam-name {
     text-transform: uppercase;
     font-size: 20px;
@@ -183,7 +156,6 @@
     padding-bottom: 20px;
     height: 120px;
 }
-
 .plan .plan-btn {
     background: #1E9400;
     color: #fff;
@@ -192,7 +164,6 @@
     height: 75px;
     cursor: pointer;
 }
-
 .buscar-dominio {
     background-color: #000;
     text-align: center;
